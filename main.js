@@ -41,6 +41,16 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
     }
   ]
 
+
+  for (people of peopleWhoWantToSeeMadMaxFuryRoad){
+    if(people.age >= 18){
+      console.log(`${people.name} is old enough`)
+    }else{
+      console.log(`${people.name} is not old enough`)
+    }
+  }
+
+
 // bonus challenge #1 Log to the console a personalized message like:
 
 
