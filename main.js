@@ -1,7 +1,18 @@
+
+
+
 // 1. Loop through the following array and count how many "computers" there are. Log the final count:
 
 
-var officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer", "computer"]
+const officeItems = ["stapler", "monitor", "computer", "desk", "lamp", "computer", "lamp", "stapler", "computer", "computer"]
+
+let total = 0;
+for (items of officeItems) {
+  if (items === 'computer') {
+        total++;
+    }
+};
+console.log(`the final count is ${total}`)
 
 // 2. Loop through the following array and log to the console "old enough" if they are 18 or older, and "not old enough" if they aren't 18.
 
